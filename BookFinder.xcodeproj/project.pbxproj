@@ -14,6 +14,7 @@
 		140F70A31FA6F19700AD0712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140F70A11FA6F19700AD0712 /* LaunchScreen.storyboard */; };
 		140F70AE1FA6F19700AD0712 /* BookFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140F70AD1FA6F19700AD0712 /* BookFinderTests.swift */; };
 		140F70B91FA6F19700AD0712 /* BookFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140F70B81FA6F19700AD0712 /* BookFinderUITests.swift */; };
+		140F70C71FA6F27F00AD0712 /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140F70C61FA6F27F00AD0712 /* BookTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		140F70B41FA6F19700AD0712 /* BookFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		140F70B81FA6F19700AD0712 /* BookFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFinderUITests.swift; sourceTree = "<group>"; };
 		140F70BA1FA6F19700AD0712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140F70C61FA6F27F00AD0712 /* BookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				140F709F1FA6F19700AD0712 /* Assets.xcassets */,
 				140F70A11FA6F19700AD0712 /* LaunchScreen.storyboard */,
 				140F70A41FA6F19700AD0712 /* Info.plist */,
+				140F70C61FA6F27F00AD0712 /* BookTableViewController.swift */,
 			);
 			path = BookFinder;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140F709B1FA6F19700AD0712 /* ViewController.swift in Sources */,
+				140F70C71FA6F27F00AD0712 /* BookTableViewController.swift in Sources */,
 				140F70991FA6F19700AD0712 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
